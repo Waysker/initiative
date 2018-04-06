@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/initiative.iml" filepath="$PROJECT_DIR$/initiative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/initiative.iml" filepath="$PROJECT_DIR$/.idea/modules/initiative.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/initiative_main.iml" filepath="$PROJECT_DIR$/.idea/modules/initiative_main.iml" group="initiative" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/initiative_test.iml" filepath="$PROJECT_DIR$/.idea/modules/initiative_test.iml" group="initiative" />
     </modules>
