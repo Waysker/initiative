@@ -10,9 +10,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        CharData charData = new CharData();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        CharData charData = new CharData(br);
         while (true) {
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Add?(a)");
             String answer = br.readLine();
             if (answer.equals("a")) {
@@ -20,7 +20,7 @@ public class Main {
                 charData.addCharacter();
 
             }
-
         }
+
     }
 }
